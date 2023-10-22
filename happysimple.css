@@ -1,11 +1,11 @@
 @import url(./happysimple/source/happysimple-set.css);
 
 /* 可选字体：
-   1.Windows自带字体, 例如: Times New Roman, Consolas, Microsoft YaHei. 详情见"C:\Windows\Fonts"
-   2.阿里妈妈普惠体：Ali_PuHuiTi (字粗:100、200、300、...、900)
-   3.思源黑体：SiYuan_HeiTi (字粗:100、200、300、...、700)
-   4.霞鹜文楷：XiaWuWenKai (字粗:100、200、300)
-   5.站酷仓耳渔阳体: ZhanKu_YvYangTi (字粗:100、200、300、400、500)
+   1.Windows自带字体,
+   例如: Times New Roman,
+   Consolas,
+   Youyuan. 详情见"C:\Windows\Fonts"
+   2.阿里妈妈普惠体：Youyuan (字粗:100、200、300、...、900) 3.思源黑体：Youyuan (字粗:100、200、300、...、700) 4.霞鹜文楷：Youyuan (字粗:100、200、300) 5.站酷仓耳渔阳体: Youyuan (字粗:100、200、300、400、500)
 */
 
 :root {
@@ -16,7 +16,8 @@
     /* write */
     --write-margin: 10px auto 10px;                /* 书写框的外边距 */
     --write-padding: 10px 20px;                    /* 书写框的内边距 */
-    --write-font-family: 'Ali_PuHuiTi';            /* 全局的字体名称 */
+    --write-font-family: 'Youyuan';
+        /* 全局的字体名称 */
     --write-font-size: 15px;                       /* 全局的字体大小 */
     --write-font-weight: 300;                      /* 全局的字体粗细 */
     --write-line-height: 1.5;                      /* 全局的行高 */
@@ -27,14 +28,15 @@
     --write-max-width: 80%;                        /* 书写框的所占比例 */
 
     /* favico */
-    --favico-url: url(image/img-1.png);            /* 右下角的图片(可以使用动图),若想取消显示,用"var(--body-bg-color);"替代即可 */
+    --favico-url: url(image/img-2.png);
+        /* 右下角的图片(可以使用动图),若想取消显示,用"var(--body-bg-color);"替代即可 */
     --favico-size: 10vw auto;                      /* 图片大小 */
     --favico-position: right bottom;               /* 图片位置(可以使用百分比,例如:99% 95%) */ 
 
     /* YAML */
     --yaml-margin: 20px 0px;
     --yaml-padding: 10px;
-    --yaml-font-family: 'XiaWuWenKai';
+    --yaml-font-family: 'Youyuan';
     --yaml-font-size: 1.0rem;
     --yaml-font-weight: 200;
     --yaml-line-height: 1.5;
@@ -49,12 +51,14 @@
     --toc-background-color: #fff;
     --toc-border: 2px solid #000;
     --toc-border-radius: 5px;
-    --toc-title-font-family: 'SiYuan_HeiTi';       /* ----------设置`目录`二字---------- */
+    --toc-title-font-family: 'Youyuan';
+        /* ----------设置`目录`二字---------- */
     --toc-title-font-size: 1.0rem;
     --toc-title-font-weight: 500;
     --toc-title-line-height: 1.5;
     --toc-title-color:#000;
-    --toc-content-font-family: 'SiYuan_HeiTi';     /* ----------设置目录内容---------- */
+    --toc-content-font-family: 'Youyuan';
+        /* ----------设置目录内容---------- */
     --toc-content-font-size: 1.0rem;
     --toc-content-font-weight: 300;
     --toc-content-line-height: 1.5;
@@ -66,7 +70,7 @@
     /* 标题(仅支持h1,h2,h3) */
     --h1-margin: 30px 0px;
     --h1-padding: 0px;
-    --h1-font-family: 'SiYuan_HeiTi';
+    --h1-font-family: 'Youyuan';
     --h1-font-size: 2.4rem;
     --h1-font-weight: 500;
     --h1-line-height: 1.5;
@@ -77,7 +81,7 @@
 
     --h2-margin: 25px 0px;
     --h2-padding: 0px;
-    --h2-font-family: 'SiYuan_HeiTi';
+    --h2-font-family: 'Youyuan';
     --h2-font-size: 2.0rem;
     --h2-font-weight: 400;
     --h2-line-height: 1.5;
@@ -88,7 +92,7 @@
 
     --h3-margin: 20px 0px;
     --h3-padding: 0px;
-    --h3-font-family: 'SiYuan_HeiTi';
+    --h3-font-family: 'Youyuan';
     --h3-font-size: 1.6rem;
     --h3-font-weight: 300;
     --h3-line-height: 1.5;
@@ -100,7 +104,7 @@
     /* 引用块 */
     --blockquote-margin: 10px 0px;
     --blockquote-padding: 10px;
-    --blockquote-font-family: 'SiYuan_HeiTi';
+    --blockquote-font-family: 'Youyuan';
     --blockquote-font-size: 1.0rem;
     --blockquote-font-weight: 300;
     --blockquote-line-height: 1.5;
@@ -117,7 +121,7 @@
 
 
     /* 注释 */
-    --annotation-font-family: "SiYuan_HeiTi";
+    --annotation-font-family: "Youyuan";
     --annotation-font-size: 1.0rem;
     --annotation-font-weight: 500;
     --annotation-color: #4e9452;
@@ -126,7 +130,7 @@
     /* 超链接 */
     --link-margin: 2px;
     --link-padding: 0px;
-    --link-font-family: 'Ali_PuHuiTi';
+    --link-font-family: 'Youyuan';
     --link-font-size: 1.0rem;
     --link-font-weight: 500;
     --link-line-height: 1.5;
@@ -139,7 +143,7 @@
     /* 小标签 */
     --note-margin: 0px;
     --note-padding: 2px 4px;
-    --note-font-family: 'ZhanKu_YvYangTi';
+    --note-font-family: 'Youyuan';
     --note-font-size: 1.0rem;
     --note-font-weight: 400;
     --note-line-height: 1.6;
@@ -151,14 +155,14 @@
     /* 强调型文本-下划线, 着重号, 波浪线 */
     --emp-margin: 0px;
     --emp-padding: 0px;
-    --emp-font-family: 'Ali_PuHuiTi';
+    --emp-font-family: 'Youyuan';
     --emp-font-size: 1.0rem;
     --emp-font-weight: 400;
     --emp-line-height: 1.5;
     --emp-line-color: #fe5f58;
 
     /* 高亮 */
-    --highlight-font-family: 'Ali_PuHuiTi';
+    --highlight-font-family: 'Youyuan';
     --highlight-font-size: 1.0rem;
     --hightight-font-weight: 400;
     --highlight-color: #000;
@@ -178,13 +182,15 @@
     --kbd-border-color: #000;
 
     /* 折叠标签 */
-    --details-title-font-family: 'SiYuan_HeiTi';              /* 折叠标签题目 */
+    --details-title-font-family: 'Youyuan';
+        /* 折叠标签题目 */
     --details-title-font-size: 1.0rem;                        
     --details-title-font-weight: 600;
     --details-title-line-height: 1.5;                      
     --details-title-color: rgba(0,0,0,0.75);     
     --details-title-background-color: #d0edf1;        
-    --details-content-font-family: 'XiaWuWenKai';             /* 折叠标签内容 */
+    --details-content-font-family: 'Youyuan';
+        /* 折叠标签内容 */
     --details-content-font-size: 1.0rem;                     
     --details-content-font-weight: 300;  
     --details-content-line-height: 1.5;                     
@@ -205,7 +211,7 @@
     --footnote-background: transparent;
 
     /* 参考文献 */
-    --font-refer-font-family: 'ZhanKu_YvYangTi';
+    --font-refer-font-family: 'Youyuan';
 
     /* 行内公式 */
     --inline-eq-font-size: 1.0rem;
@@ -249,7 +255,7 @@
     /* 有序列表 */
     --order-list-margin: 10px 0px;
     --order-list-padding: 0px;
-    --order-list-font-family: 'SiYuan_HeiTi';
+    --order-list-font-family: 'Youyuan';
     --order-list-font-size: 1.0rem;
     --order-list-font-weight: 300;
     --order-list-color: #000;
@@ -261,7 +267,7 @@
     /* 无序列表 */
     --unorder-list-margin: 10px 0px;
     --unorder-list-padding: 0px;
-    --unorder-list-font-family: 'SiYuan_HeiTi';
+    --unorder-list-font-family: 'Youyuan';
     --unorder-list-font-size: 1.0rem;
     --unorder-list-font-weight: 300; 
     --unorder-list-color: #000;                   /* 无序列表的字体颜色 */
@@ -300,7 +306,7 @@
     --table-margin: 10px 0px;
     --table-padding: 0px;
     --table-width: 80%;                           /* 表格宽度*/
-    --table-font-family: 'ZhanKu_YvYangTi';
+    --table-font-family: 'Youyuan';
     --table-font-size: 1.0rem;
     --table-line-height: 1.5;
     --table-th-background-color: #aed3e3;       /* 表头表头背景色 */
